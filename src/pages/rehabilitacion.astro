@@ -1,0 +1,60 @@
+---
+import Footer from "../components/Footer.astro";
+import ListaServices from "../components/ListaServices.astro";
+import NavBar from "../components/NavBar.astro";
+import Whatsapp from "../components/Whatsapp.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Rehabilitacion">
+  <NavBar />
+
+  <div class="p-14 bg-black"></div>
+
+  <div class="w-full py-16 px-4 md:px-8 overflow-hidden">
+    <div
+      class="container mx-auto max-w-6xl flex flex-col md:flex-row items-center gap-12"
+    >
+      <!-- Imagen con decoraciones -->
+      <div class="relative flex-1 flex justify-center">
+        <!-- Tarjeta flotante -->
+        <div
+          class="relative z-10 transform rotate-6 hover:rotate-0 transition-transform duration-500 shadow-2xl max-w-xs"
+        >
+          <img
+            src="/rehabilitacion.webp"
+            alt="rehabilitacion"
+            class="object-cover rounded-lg"
+          />
+        </div>
+      </div>
+
+      <div
+        class="flex-1 flex flex-col items-center md:items-start text-center md:text-left gap-2"
+      >
+        <h2 class="text-3xl md:text-4xl font-bold">REHABILITACIÓN ORAL</h2>
+
+        <span>#SonrisasRealesIntegradent</span>
+        <p class="text-gray-600 leading-relaxed text-justify">
+          La rehabilitación oral es una disciplina de la odontología
+          especializada en la restauración inmediata de las piezas dentales para
+          devolverle su función estética y armónica. Estas rehabilitaciones, que
+          se pueden realizar en un solo día, se dan a partir de prótesis
+          dentales por problemas estéticos o la pérdida de algún diente. La
+          rehabilitación oral se compone de un tratamiento integral a partir de
+          prótesis fijas, removibles, oclusión e implantes dentales.
+        </p>
+
+        <span
+          >No arriesgues tu salud en manos de cualquiera... ¡Nosotros somos los
+          indicados!</span
+        >
+      </div>
+
+      <ListaServices />
+    </div>
+  </div>
+
+  <Whatsapp />
+  <Footer />
+</Layout>

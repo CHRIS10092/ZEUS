@@ -1,0 +1,37 @@
+---
+import Form from "../components/Form.astro";
+import Footer from "../components/Footer.astro";
+import NavBar from "../components/NavBar.astro";
+import Perfil from "../components/Perfil.astro";
+import QuienesSomos from "../components/QuienesSomos.astro";
+import Banner from "../components/Banner.astro";
+import Layout from "../layouts/Layout.astro";
+import Services from "../components/Services.astro";
+import Perfiles from "../components/Perfiles.astro";
+import Whatsapp from "../components/Whatsapp.astro";
+import Video from "../components/Video.astro";
+import QuienesSomos2 from "../components/QuienesSomos2.astro";
+---
+
+<Layout title="IntegraDent">
+  <NavBar />
+
+  <section id="home">
+    <Banner />
+  </section>
+  <Perfil />
+  <section id="perfiles">
+    <Perfiles />
+  </section>
+
+  <QuienesSomos2 />
+  <div id="servicios">
+    <Services />
+  </div>
+  <Form />
+
+  <Video />
+
+  <Whatsapp />
+  <Footer />
+</Layout>
