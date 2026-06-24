@@ -1,2 +1,2 @@
-  export const FBURL = "https://www.facebook.com/dralexandrafierro/"
-  export const INS = "https://www.instagram.com/draalexandrafierro/"
+  export const FBURL = "https://www.facebook.com/escuelazeus/"
+  export const INS = "https://www.instagram.com/escuelazeus/"
